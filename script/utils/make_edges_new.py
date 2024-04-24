@@ -2,10 +2,12 @@ import torch
 import numpy as np
 import scipy.sparse as sp
 import pickle
-import torch_geometric.utils.to_dense_adj as to_dense_adj
+#import torch_geometric.utils.to_dense_adj as to_dense_adj       # this line is for the version in requirement.txt
+from torch_geometric.utils import to_dense_adj    # this line is for new version of torch_geometric
 from torch_geometric.utils.undirected import to_undirected
 from torch_geometric.utils.convert import to_scipy_sparse_matrix
-from torch_geometric.utils.negative_sampling import negative_sampling, structured_negative_sampling
+#from torch_geometric.utils.negative_sampling import negative_sampling, structured_negative_sampling     # this line is for the version in requirement.txt
+from torch_geometric.utils import negative_sampling, structured_negative_sampling     # this line is for new version of torch_geometric
 from torch_geometric.utils import remove_self_loops
 from torch_geometric.utils import softmax, k_hop_subgraph
 
