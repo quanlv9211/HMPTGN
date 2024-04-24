@@ -19,8 +19,6 @@ The data is cached in `./data/input/cached`.
 
 ```python main.py --model=HMPTGN --dataset=enron10 --lr=0.002 --seed=998877```
 
-- Learning rate is set to 0.01.
-
 3.2 Seed 
 - Seeds that we used: 998877, 23456, 900.
 
