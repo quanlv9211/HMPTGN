@@ -1,6 +1,12 @@
 ## 1. Overview
 
-- This is the repo of HMPTGN
+This is the Pytorch implementation for "Toward a Manifold-Preserving Temporal Graph Network in Hyperbolic Space (IJCAI24)"
+
+Authors: Quan Le, Cuong Ta
+
+Paper:
+
+![alt text](https://github.com/quanlv9211/HMPTGN/blob/main/figures/HMPTGN_framework.pdf?raw=true)
 
 ## 2. Setup
 
@@ -19,11 +25,9 @@ The data is cached in `./data/input/cached`.
 
 ```python main.py --model=HMPTGN --dataset=enron10 --lr=0.002 --seed=998877```
 
-3.2 Seed 
-- Seeds that we used: 998877, 23456, 900.
+3.2 Seed: 998877, 23456, 900.
 
-3.3 Dataset
-- Dataset choices: disease, enron10, dblp, uci, mathoverflow, fbw.
+3.3 Dataset choices: disease, enron10, dblp, uci, mathoverflow, fbw.
 
 ## 4. Baselines
 For the baselines, please follow these repos and papers:
