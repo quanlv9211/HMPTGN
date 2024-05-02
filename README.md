@@ -6,7 +6,7 @@ Authors: Quan Le, Cuong Ta
 
 Paper:
 
-![Framework of HMPTGN](figures/HMPTGN_framework.pdf)
+![Framework of HMPTGN](figures/HMPTGN_framework.png)
 
 ## 2. Setup
 
