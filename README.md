@@ -4,7 +4,7 @@ This is the Pytorch implementation for "Toward a Manifold-Preserving Temporal Gr
 
 Authors: Quan Le, Cuong Ta
 
-Paper:
+Paper: [Toward a Manifold-Preserving Temporal Graph Network in Hyperbolic Space](https://www.ijcai.org/proceedings/2024/484)
 
 ![Framework of HMPTGN](figures/HMPTGN_framework.png)
 
